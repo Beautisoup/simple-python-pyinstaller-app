@@ -43,6 +43,7 @@ class TestCalc(unittest.TestCase):
         """
         result = calc.add2('abc', '5.5')
         self.assertEqual(result, 'abc5.5')
+        print('okokokokokokokokokokokokokokoko')
 
 if __name__ == '__main__':
     unittest.main()
